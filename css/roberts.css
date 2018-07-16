@@ -210,8 +210,8 @@ div.validator {
     animation-duration: 10s;
     animation-iteration-count: 1;
     -webkit-animation-name: waddle;
-    -webkit-animation-duration: 7s;
-    x-transition: all 10s ease-in-out;
+    -webkit-animation-duration: 10s;
+   /* x-transition: all 10s ease-in-out; */
 }
 
 
