@@ -191,6 +191,30 @@ div.validator {
     width: 80%;
 }
 
+/* Animation for the bird */
+@keyframes waddle {
+    0% {right: 0px; top: 5px;}
+    25% {right: 25%; top: 5px}
+    50% {left: 45%; top: 5px}
+    75% {right: 25%; top: 5px}
+    100% {right: 0px; top: 5px}
+}
+
+.bird-waddling {
+    display: block;
+    z-index: 99;
+    position: absolute;
+    float: right;
+    margin-right: 5px;
+    animation-name: waddle;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    -webkit-animation-name: waddle;
+    -webkit-animation-duration: 7s;
+    x-transition: all 10s ease-in-out;
+}
+
+
 /* Carousel Specific amendments */
 .carousel-container {
     top: 200px;
