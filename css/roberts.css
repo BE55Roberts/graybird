@@ -211,7 +211,7 @@ div.validator {
     animation-iteration-count: 1;
     -webkit-animation-name: waddle;
     -webkit-animation-duration: 10s;
-   /* x-transition: all 10s ease-in-out; */
+    transition-timing-function: ease-in-out;
 }
 
 
