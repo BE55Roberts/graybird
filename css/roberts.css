@@ -54,7 +54,7 @@ div.page_header span {
 div.page_header img {
     margin: 3px 0px 0px 40px;
 
-    border: 0px 0px 0px;
+    border: 0px solid #FFFFFF;
 }
 
 div.table_of_contents {
